@@ -269,7 +269,7 @@ section .title::after{
 .services .title::after,
 .teams .title::after{
     background: #111;
-    content: "check me out";
+    content: "Things Im Good At";
 }
 .services .serv-content .card{
     width: calc(33% - 20px);
@@ -303,6 +303,52 @@ section .title::after{
     margin: 10px 0 7px 0;
 }
 
+/* services section styling 2 */
+
+.services, .teams{
+    color:#fff;
+    background: #111;
+}
+.services .title2::before,
+.teams .title2::before{
+    background: #fff;
+}
+.services .title2::after,
+.teams .title2::after{
+    background: #111;
+    content: "Reach me at!";
+}
+.services .serv-content .card{
+    width: calc(33% - 20px);
+    background: #222;
+    text-align: center;
+    border-radius: 6px;
+    padding: 50px 25px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+.services .serv-content .card:hover{
+    background: #2653d9;
+}
+.services .serv-content .card .box{
+    transition: all 0.3s ease;
+}
+.services .serv-content .card:hover .box{
+    transform: scale(1.05);
+}
+.services .serv-content .card i{
+    font-size: 50px;
+    color: #2653d9;
+    transition: color 0.3s ease;
+}
+.services .serv-content .card:hover i{
+    color: #fff;
+}
+.services .serv-content .card .text{
+    font-size: 25px;
+    font-weight: 500;
+    margin: 10px 0 7px 0;
+}
 /* skills section styling */
 
 .skills .title::after{
@@ -362,6 +408,9 @@ section .title::after{
     top: 0;
     background: #2653d9;
 }
+.skills-content .right .dsl::before{
+    width: 85%;
+}
 .skills-content .right .dsa::before{
     width: 75%;
 }
@@ -372,7 +421,7 @@ section .title::after{
     width: 65%;
 }
 .skills-content .right .js::before{
-    width: 70%;
+    width: 50%;
 }
 .skills-content .right .csharp::before{
     width: 60%;
